@@ -5,6 +5,3 @@ A dark [Neovim](https://github.com/neovim/neovim) theme written in
 
 ![Raccoon Theme](raccoon-theme.png)
 
-<a href="https://dotfyle.com/plugins/bwlee13/raccoon.nvim">
-  <img src="https://dotfyle.com/plugins/bwlee13/raccoon.nvim/shield" />
-</a>
