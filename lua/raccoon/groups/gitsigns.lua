@@ -3,7 +3,7 @@ local M = {}
 M.url = "https://github.com/lewis6991/gitsigns.nvim"
 
 ---@type raccoon.HighlightsFn
-function M.get(c, opts)
+function M.get(c)
   -- stylua: ignore
   return {
     GitSignsAdd    = { fg = c.git.add }, -- diff mode: Added line |diff.txt|

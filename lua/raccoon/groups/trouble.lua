@@ -3,7 +3,7 @@ local M = {}
 M.url = "https://github.com/folke/trouble.nvim"
 
 ---@type raccoon.HighlightsFn
-function M.get(c, opts)
+function M.get(c)
   -- stylua: ignore
   return {
     TroubleText   = { fg = c.fg_dark },

@@ -3,7 +3,7 @@ local M = {}
 M.url = "https://github.com/folke/which-key.nvim"
 
 ---@type raccoon.HighlightsFn
-function M.get(c, opts)
+function M.get(c)
   -- stylua: ignore
   return {
     WhichKey          = { fg = c.cyan },

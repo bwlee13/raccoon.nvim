@@ -3,7 +3,7 @@ local M = {}
 M.url = "https://github.com/airblade/vim-gitgutter"
 
 ---@type raccoon.HighlightsFn
-function M.get(c, opts)
+function M.get(c)
   -- stylua: ignore
   return {
     GitGutterAdd          = { fg = c.git.add }, -- diff mode: Added line |diff.txt|
