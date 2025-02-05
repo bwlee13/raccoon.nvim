@@ -5,8 +5,13 @@ local M = {}
 
 --stylua: ignore
 M.plugins = {
+  ["bufferline.nvim"]               = "bufferline",
+  ["flash.nvim"]                    = "flash",
+  ["fzf-lua"]                       = "fzf",
+  ["gitsigns.nvim"]                 = "gitsigns",
   ["lazy.nvim"]                     = "lazy",
   ["neo-tree.nvim"]                 = "neo-tree",
+  ["snacks.nvim"]                   = "snacks",
   ["which-key.nvim"]                = "which-key",
 }
 

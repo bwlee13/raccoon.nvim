@@ -40,7 +40,7 @@ M.defaults = {
 		auto = true,
 		-- add any plugins here that you want to enable
 		-- for all possible plugins, see:
-		--   * https://github.com/folke/tokyonight.nvim/tree/main/lua/tokyonight/groups
+		--   * https://github.com/bwlee13/raccoon.nvim/tree/main/lua/tokyonight/groups
 		-- telescope = true,
 	},
 }
